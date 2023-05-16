@@ -2,7 +2,7 @@
 
 This is where you document how to use the modified IPFS Gateway you built as well as the API to contact the infrastructure and query how many people have viewed an IPFS object. 
 
-# Gateway W.I.P.
+# Gateway Documentation W.I.P. (May 16 2023)
 
 This is an implementation of an IPFS Gateway what anonymously tracks the volume of requests of IPFS objects/CID's. 
 The main purpose of the CID metrics feature is to keep track of the CIDs requested, providing anonymous but valuable insights into the usage patterns and helping in optimizing the performance and user experience of the IPFS gateway.
