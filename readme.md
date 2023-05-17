@@ -36,6 +36,11 @@ When you [store data using the web3.storage client](https://web3.storage/docs/ho
 
 w3link (https://ipfs.w3s.link/*) has a rate limit of 200 requests per minute by IP.
 
+## Leto Metrics API
+
+
+
+
 
 
 ## Issues and Testing
