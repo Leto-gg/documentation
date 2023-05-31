@@ -4,7 +4,7 @@ This is the home of the document how to use the Leto Gateway as well as the Leto
 
 [Gateway Documentation](https://github.com/Leto-gg/documentation/blob/main/gateway-api/gateway-api-doc.md)
 
-[Metrics API Documentation](https://github.com/Leto-gg/documentation/blob/main/analytics-api/analytics.md)
+[Analytics API Documentation](https://github.com/Leto-gg/documentation/blob/main/analytics-api/analytics.md)
 
 ## Issues and Testing
 
