@@ -20,7 +20,7 @@ Already using an IPFS Gateway? Switching to ours is as simple as changing your G
 
 ## Accessing IPFS via HTTP
 
-IPFS data is easy to get using any IPFS HTTP gateway, since IPFS is a decentralized peer-to-peer network. In this guide, we'll use Leto.gg's gateway, which is built on the Web3.Storage Superfast Gateway. Alongside giving you your data, it offers anonymous metrics.
+IPFS data is easy to get especially when using a IPFS HTTP gateway, since IPFS is a decentralized peer-to-peer network. In this guide, we'll use Leto.gg's gateway, which is built on the Web3.Storage Superfast Gateway. Alongside giving you your data, it offers anonymous metrics.
 
 When you [store data with the web3.storage client](https://web3.storage/docs/how-tos/store/), the put method spits back an [IPFS content identifier (CID)](https://docs.ipfs.io/concepts/content-addressing/) string. This CID leads to an IPFS directory full of files you sent via the put method.
 
