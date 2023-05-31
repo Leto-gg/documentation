@@ -1,0 +1,327 @@
+{
+	"info": {
+		"_postman_id": "40a64787-1bbf-4317-a2d6-4fa58ad299af",
+		"name": "Leto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAnalytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cids\": [\"bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi\", \"bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie\"],\n    \"page\": 1,\n    \"size\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.leto.gg/analytics",
+					"protocol": "https",
+					"host": [
+						"api",
+						"leto",
+						"gg"
+					],
+					"path": [
+						"analytics"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful Response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cids\": [\n        \"bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi\",\n        \"bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie\"\n    ],\n    \"page\": 1,\n    \"size\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.leto.gg/analytics",
+							"protocol": "https",
+							"host": [
+								"api",
+								"leto",
+								"gg"
+							],
+							"path": [
+								"analytics"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 28 May 2023 16:06:03 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ekf1eUUVyOg9NMaZBPyu%2FOPhtrcZ9temoguzEyoYK4aB8J%2FUxEA9r0UQaftwxTqeyw3fZn3DMoOOiCNb%2BSYqRsWsK5esd7A%2F2%2FYht4A6N4lnLYqVCHOqKIZxn7Jg\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7ce7be14993ad051-KHI"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": {\n        \"metadata\": [\n            {\n                \"total\": 2,\n                \"page\": 1\n            }\n        ],\n        \"data\": [\n            {\n                \"cid\": \"bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi\",\n                \"cidType\": \"ipfs\",\n                \"lastAccessed\": \"2023-04-10T22:16:42.813Z\",\n                \"numbersAccessed\": 33\n            },\n            {\n                \"cid\": \"bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie\",\n                \"cidType\": \"ipfs\",\n                \"lastAccessed\": \"2023-04-07T09:42:14.531Z\",\n                \"numbersAccessed\": 3\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "Error: Empty CIDs",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cids\": [],\n    \"page\": 1,\n    \"size\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.leto.gg/analytics",
+							"protocol": "https",
+							"host": [
+								"api",
+								"leto",
+								"gg"
+							],
+							"path": [
+								"analytics"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 May 2023 05:48:44 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "70"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FMCS1Wf1pcMkXysozvSkMeDLZwQgP70vH0g3%2FIuBO5BxKyEu8hWjWHqG%2BAfrczIov%2BqTpqot3mz7b7RDRiNL2nKZvMuGnYQ%2Fj5gdjWpmzVqUaoc0xO3i9Y7kalXc\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7cf4b0993b08c976-KHI"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"request needs atleast one cid to respond\"\n}"
+				},
+				{
+					"name": "Error: Invalid page",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cids\": [\n        \"bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi\",\n        \"bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie\"\n    ],\n    \"page\": 0,\n    \"size\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.leto.gg/analytics",
+							"protocol": "https",
+							"host": [
+								"api",
+								"leto",
+								"gg"
+							],
+							"path": [
+								"analytics"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 May 2023 05:49:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=bD1jUdxE0AeC%2FopxZC71wkP3tGl1pPpS8Nd%2FtWIpC%2FNZ8UBq40QmEJa47pEC18WDa%2BEa61rinmfIYVH0FYdADZM4DHXYoj4Q3t7PpmK8uRZcoMUSUVxGq9RdrJh6\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7cf4b1fb6adcc976-KHI"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"invalid page\"\n}"
+				},
+				{
+					"name": "Error: Invalid Size",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cids\": [\n        \"bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi\",\n        \"bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie\"\n    ],\n    \"page\": 2,\n    \"size\": -1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.leto.gg/analytics",
+							"protocol": "https",
+							"host": [
+								"api",
+								"leto",
+								"gg"
+							],
+							"path": [
+								"analytics"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 May 2023 05:50:14 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "42"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=QGzOUBMWmRx%2Bn1CWNegXr36jygcGI2CTrNbKFQtWnizJtNjgwNJ%2FZ9D0eiFKnErpgIUJYIOE02S9KcZzV1pgm%2FaQETfp9qvxtTyrCTXTSMM8OQnUGGXg8bw4eX%2Fv\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7cf4b2cb8ce5c976-KHI"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"message\": \"invalid size\"\n}"
+				}
+			]
+		}
+	]
+}
