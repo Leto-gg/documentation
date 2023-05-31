@@ -1,6 +1,6 @@
 # Leto's IPFS Gateway Documentation (May 16, 2023)
 
-Here's the breakdown for Leto's IPFS Gateway. Our gateway keeps tabs on the volume of requests for IPFS objects or Content Identifiers (CIDs), but don't worry - it's all anonymous. We created the CID metrics feature to track frequently requested CIDs, giving us a peek into usage patterns. With this info, we can make our IPFS Gateway faster and easier to use.
+Here's the breakdown for Leto's IPFS Gateway. Our gateway keeps tabs on the volume of requests for IPFS objects or Content Identifiers (CIDs), but don't worry - it's all anonymous. We created the CID metrics feature to only track frequently requested CIDs, giving us a peek into usage patterns.
 
 ![Proxy Gateway Architecture](https://user-images.githubusercontent.com/30084404/225565389-d78d75a7-7ee7-44c8-8ece-3793928c0f30.png)
 
