@@ -1,4 +1,4 @@
-# Leto REST APIs
+# Leto Analytics REST APIs
 
 ## Analytics
 
