@@ -1,4 +1,4 @@
-# Leto's IPFS Gateway
+# Leto's IPFS Gateway API
 
 Here's the breakdown for Leto's IPFS Gateway. Our gateway keeps tabs on the volume of requests for IPFS objects or Content Identifiers (CIDs), but don't worry - it's all anonymous. We created the CID metrics feature to only track frequently requested CIDs, giving us a peek into usage patterns.
 
