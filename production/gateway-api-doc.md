@@ -17,7 +17,7 @@ Here are the principal features offered by our IPFS Gateway:
 
 ## Switching Gateways
 
-To switch from your current IPFS Gateway to ours, all you need to do is change your Gateway address to the Leto Gateway, available at `leto.gg/ipfs/cid`.
+To switch from your current IPFS Gateway to ours, all you need to do is change your Gateway address to the Leto Gateway, available at `leto.gg/ipfs/"cid"`.
 
 ## Accessing IPFS via HTTP
 
