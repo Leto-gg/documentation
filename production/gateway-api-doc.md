@@ -11,9 +11,8 @@ Here are the principal features offered by our IPFS Gateway:
 - **Anonymity**: Our Gateway ensures you can access IPFS content without revealing your identity.
 - **Privacy**: No logging of IP addresses or personal information.
 - **Performance**: The Gateway is lightweight, fast, and easy to initialize.
-- **Tracking**: The Gateway records every CID (Content Identifier) request, along with timestamps.
 - **Metrics**: We perform analyses based on the frequency and timing of CID requests.
-- **Data Export**: For further analysis of metrics, export your data in formats like CSV, JSON, etc.
+
 
 ## Switching Gateways
 
