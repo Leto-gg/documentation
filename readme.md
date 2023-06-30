@@ -2,9 +2,9 @@
 
 This is the home of the document how to use the Leto Gateway as well as the Leto Metrics API to contact the infrastructure and query how many people have viewed an IPFS object. 
 
-[Gateway Documentation](https://github.com/Leto-gg/documentation/blob/main/gateway-api/gateway-api-doc.md)
+[Gateway Documentation](https://letodev.gitbook.io/leto-documentation-1/gateway-api-doc)
 
-[Analytics API Documentation](https://github.com/Leto-gg/documentation/blob/main/analytics-api/analytics.md)
+[Analytics API Documentation](https://letodev.gitbook.io/leto-documentation-1/Analytics)
 
 ## Issues and Testing
 
