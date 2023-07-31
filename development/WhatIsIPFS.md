@@ -11,3 +11,5 @@
 - Resilience
 - Performance
 - Data Soverignty
+
+## Ways to use IPFS
