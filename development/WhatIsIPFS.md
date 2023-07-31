@@ -6,10 +6,11 @@
 
 ## Problems IPFS Solves
 
-- IPFS seeks to colve problems with the current web and existing data representation / routing/ transfer protocols like HTTP. 
+- IPFS seeks to colve problems with the current web and existing data representation / routing / transfer protocols like HTTP. 
 
 - Resilience
 - Performance
 - Data Soverignty
 
 ## Ways to use IPFS
+
