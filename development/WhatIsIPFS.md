@@ -5,3 +5,5 @@
 [https://docs.ipfs.tech/concepts/what-is-ipfs/#defining-ipfs]
 
 ## Problems IPFS Solves
+
+- IPFS seeks to colve problems with the current web and existing data representation / routing/ transfer protocols like HTTP. 
