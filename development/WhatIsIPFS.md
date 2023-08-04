@@ -14,3 +14,8 @@
 
 ## Ways to use IPFS
 
+There are many providers who can store, and serve data with. Examples that our analytics work with are Web3.Storage, Spheron, Lighthouse.Storage, and Fleek. 
+
+## Compatible IPFS Providers
+
+Our Leto Gateway can communicate with each of these services and make sure content is served as fast as possible nomatter the provider. This is done through Gateway Racing!
