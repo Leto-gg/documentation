@@ -10,3 +10,6 @@ Most developers are serving their IPFS content using IPFS Gateway. To add Leto A
 
 If you want to integrate the analytics query into your app too give users data of how often their content is viewed, you can find that here: 
 
+## Compatible IPFS Providers
+
+Our Leto Gateway can communicate with each of these services and make sure content is served as fast as possible nomatter the provider. This is done through Gateway Racing!
