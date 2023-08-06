@@ -4,7 +4,7 @@ Welcome to our Private Analytics Platform Leto! Were a private analytics platfor
 
 ## Compatible IPFS Providers
 
-Our Leto Gateway can communicate with each of these services and make sure content is served as fast as possible nomatter the provider. This is done through Gateway Racing! Save your content with Web3.Storage and we can serve your content and give you private analytics to help you develop better.
+Our Leto Gateway can communicate with each of these services and make sure content is served as fast as possible nomatter the provider. This is done through Gateway Racing! Save your content with Web3.Storage and we can serve your content and give you private analytics to help you develop better. [Web3.Storage](https://web3.storage)
 
 The public IPFS Gateways we currently support are Web3.Storage, the IPFS Gateway, and the DWeb Gateway. 
 
