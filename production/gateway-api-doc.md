@@ -1,4 +1,4 @@
-# Leto's IPFS Gateway API Documentation
+# IPFS Gateway API
 
 Leto's IPFS Gateway is a comprehensive, lightweight, and fast API that respects your privacy. It enables you to access InterPlanetary File System (IPFS) content anonymously and offers a metric-based approach to analyze usage patterns. The image below illustrates the structure of the Proxy Gateway Architecture:
 
@@ -8,11 +8,10 @@ Leto's IPFS Gateway is a comprehensive, lightweight, and fast API that respects 
 
 Here are the principal features offered by our IPFS Gateway:
 
-- **Anonymity**: Our Gateway ensures you can access IPFS content without revealing your identity.
-- **Privacy**: No logging of IP addresses or personal information.
-- **Performance**: The Gateway is lightweight, fast, and easy to initialize.
-- **Metrics**: We perform analyses based on the frequency and timing of CID requests.
-
+* **Anonymity**: Our Gateway ensures you can access IPFS content without revealing your identity.
+* **Privacy**: No logging of IP addresses or personal information.
+* **Performance**: The Gateway is lightweight, fast, and easy to initialize.
+* **Metrics**: We perform analyses based on the frequency and timing of CID requests.
 
 ## Switching Gateways
 
@@ -26,6 +25,6 @@ Upon storing data using the [web3.storage client](https://web3.storage/docs/how-
 
 Here's how to leverage these CIDs:
 
-- Point your application or program to the data in the Web3.Storage infrastructure using the respective CID.
+* Point your application or program to the data in the Web3.Storage infrastructure using the respective CID.
 
-> **Note:** The w3link (https://ipfs.w3s.link/*) imposes a rate limit of 200 requests per minute per IP.
+> **Note:** The w3link (https://ipfs.w3s.link/\*) imposes a rate limit of 200 requests per minute per IP.

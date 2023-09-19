@@ -3,9 +3,9 @@
 ## Group 1
 
 * [Documentation](README.md)
-  * [Analytics REST APIs](group-1/documentation/analytics.md)
-  * [IPFS Gateway API](group-1/documentation/gateway-api-doc.md)
-  * [Getting Started with Leto](group-1/documentation/readme.md)
+  * [Getting Started with Leto](<README (1).md>)
+  * [Analytics REST APIs](Analytics.md)
+  * [IPFS Gateway API](gateway-api-doc.md)
 
 ## Group 2
 
